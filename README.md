@@ -1,14 +1,16 @@
 # Bestiario-assets
 
-Recursos visuales descargables de Bestiario. Fotografías de criaturas ficticias,
-generadas localmente y revisadas antes de publicar. Este repositorio no contiene
+Recursos visuales descargables de Bestiario, generados localmente a partir de
+los dibujos del taller. Este repositorio no contiene
 código de la app ni credenciales.
 
 ## Catálogo común
 
 La release [Bestiario · Catálogo 1](https://github.com/jcaboroca/Bestiario-assets/releases/tag/catalogo-2026-10-29-v1)
-reúne las siete imágenes aprobadas, incluida Lerafa. Las siguientes imágenes
-aprobadas se añadirán a esta misma release, no a una release por sesión o lote.
+reúne 343 imágenes: las siete revisadas, incluida Lerafa, y 336 candidatas
+pendientes de revisión visual, publicadas para probarlas desde la app.
+Las siguientes imágenes se añadirán a esta misma release, no a una release
+por sesión o lote.
 
 Se conserva la etiqueta técnica `catalogo-2026-10-29-v1` para mantener estables
 los enlaces. Cada PNG se descarga individualmente desde:
@@ -19,17 +21,23 @@ https://github.com/jcaboroca/Bestiario-assets/releases/download/catalogo-2026-10
 
 El adjunto [catalog.json](https://github.com/jcaboroca/Bestiario-assets/releases/download/catalogo-2026-10-29-v1/catalog.json)
 registra los identificadores, partes, URLs, dimensiones, tamaños y SHA-256.
-Los PNG actuales miden 512 × 384. La app descarga solo la fotografía solicitada
+Las 336 incorporaciones incluyen `reviewStatus: candidate`; su integridad,
+dimensiones y descarga se han comprobado, pero eso no valida su anatomía
+ni las transiciones del pelaje. Los PNG actuales miden 512 × 384.
+La app descarga solo la fotografía solicitada
 al pulsar **Ver ficha**, no un ZIP ni el catálogo completo. Publicar una imagen
 no crea por sí solo su ficha local en la app.
 
 ## Incorporaciones siguientes
 
-1. Revisar la anatomía y la correspondencia con las tres partes del dibujo.
-2. Subir el PNG aprobado a **Catálogo 1** y comprobar su descarga anónima,
+1. Comprobar el PNG y su correspondencia con el triple que lo identifica.
+2. Subirlo a **Catálogo 1** y comprobar su descarga anónima,
    dimensiones, tamaño y SHA-256.
-3. Añadir su entrada a `catalog.json`, conservando las anteriores.
-4. Incorporar la ficha y su URL al catálogo local de la app.
+3. Añadir su entrada a `catalog.json`, conservando las anteriores y marcándola
+   como candidata mientras no se haya revisado visualmente.
+4. Incorporar la ficha provisional y su URL al catálogo local de la app.
+5. Revisar anatomía, pelaje y encuadre antes de considerarla aprobada y redactar
+   su ficha definitiva.
 
 No retirar ni sobrescribir imágenes ya usadas por una versión de la app.
 Una corrección debe recibir un nombre nuevo y su propia URL.
