@@ -4,6 +4,18 @@ Recursos visuales descargables de Bestiario, generados localmente a partir de
 los dibujos del taller. Este repositorio no contiene
 código de la app ni credenciales.
 
+## Tomos descargables
+
+El [índice de contenido](https://jcaboroca.github.io/Bestiario-assets/packs/index.json)
+ofrece Animalia v3: corrige las dietas y los textos contradictorios de 780
+híbridos con delantera de león, tigre, lobo u oso. Los tres primeros son
+carnívoros; los osos conservan una alimentación omnívora. No cambia nombres,
+identificadores, fotografías ni ilustraciones.
+
+La actualización se descarga con **ACTUALIZAR** en el tomo Animalia.
+Es compatible con el motor 1 y conserva los descubrimientos existentes.
+Los archivos de v2 permanecen intactos; cada versión tiene una ruta inmutable.
+
 ## Catálogo común
 
 La release [Bestiario · Catálogo 1](https://github.com/jcaboroca/Bestiario-assets/releases/tag/catalogo-2026-10-29-v1)
