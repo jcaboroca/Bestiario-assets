@@ -7,14 +7,19 @@ código de la app ni credenciales.
 ## Tomos descargables
 
 El [índice de contenido](https://jcaboroca.github.io/Bestiario-assets/packs/index.json)
-ofrece Animalia v3: corrige las dietas y los textos contradictorios de 780
+ofrece Animalia v4: corrige las dietas y los textos contradictorios de 780
 híbridos con delantera de león, tigre, lobo u oso. Los tres primeros son
 carnívoros; los osos conservan una alimentación omnívora. No cambia nombres,
-identificadores, fotografías ni ilustraciones.
+identificadores, fotografías ni ilustraciones. Las fichas describen directamente
+qué comen y cómo lo consiguen, sin repetir etiquetas de alimentación.
 
 La actualización se descarga con **ACTUALIZAR** en el tomo Animalia.
 Es compatible con el motor 1 y conserva los descubrimientos existentes.
-Los archivos de v2 permanecen intactos; cada versión tiene una ruta inmutable.
+La app actualizada reutiliza las ilustraciones locales verificadas y descarga
+solo los archivos nuevos, modificados o dañados. Esta revisión de texto
+transfiere unos 4,3 MB, en lugar del máximo de unos 58,8 MB del tomo completo.
+Las apps anteriores siguen siendo compatibles, pero descargan todo el tomo.
+Los archivos de v2 y v3 permanecen intactos; cada versión tiene una ruta inmutable.
 
 ## Catálogo común
 
