@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "minEngineVersion": 2,
+  "version": 2,
+  "volumeId": "prehistoria",
+  "title": "Prehistoria",
+  "subtitle": "Antes de nuestra memoria",
+  "description": "Tres animales extintos y veinticuatro criaturas imaginarias entre estepas, bosques y llanuras antiguas.",
+  "numeral": "II",
+  "theme": "814A38",
+  "cover": "mamut-mamut-mamut",
+  "geometry": {"width": 2400, "height": 1792, "cuts": [1056, 1464]},
+  "species": [
+    {"id": "mamut", "label": "Mamut lanudo", "asset": "images/mamut.png", "phrases": {"front": "Un coloso lanudo", "middle": "de abrigo espeso", "rear": "en la estepa"}},
+    {"id": "smilodon", "label": "Smilodon", "asset": "images/smilodon.png", "phrases": {"front": "Un felino de sables", "middle": "de lomo flexible", "rear": "en el bosque"}},
+    {"id": "triceratops", "label": "Triceratops", "asset": "images/triceratops.png", "phrases": {"front": "Un gigante cornudo", "middle": "de piel rugosa", "rear": "junto al río"}}
+  ],
+  "assets": [
+    {"path": "images/mamut.png", "size": 4250519, "sha256": "328bb52608974be70d3616613af9e7703ae63505147d2075189f11380de61122", "width": 2400, "height": 1792},
+    {"path": "images/smilodon.png", "size": 3686833, "sha256": "0adaf2691f37bf296959e7c496fab0f68523259550df93c021c5d7dddf54ff90", "width": 2400, "height": 1792},
+    {"path": "images/triceratops.png", "size": 3978284, "sha256": "6b1a4ddf8e69159b0145bba66bf9efcfb61ea51478e5935de0de8677825b8432", "width": 2400, "height": 1792}
+  ],
+  "dossiers": [
+    {
+      "id": "mamut-mamut-mamut", "name": "Mamut lanudo", "plateNumber": 1,
+      "scientificName": "Mammuthus primigenius",
+      "imageUrl": null, "imageDescription": "Reconstrucción de un mamut lanudo, con pelo largo, orejas pequeñas y grandes colmillos curvados.", "imageNeedsReview": false,
+      "story": "El mamut lanudo recorría las estepas frías del norte durante la Edad del Hielo. Bajo los pelos largos llevaba una capa de lana más corta; las orejas pequeñas y la cola reducida también limitaban la pérdida de calor. Sus colmillos describían curvas muy marcadas, bien distintas de los colmillos más rectos de muchos elefantes actuales.",
+      "habitat": "Estepas frías y abiertas, con hierbas y otras plantas bajas. La llamada estepa del mamut se extendía por el norte de Eurasia y América del Norte.",
+      "diet": "Comía hierbas y otras plantas de la estepa. La trompa reunía los bocados y las grandes muelas los trituraban; los restos conservados de alimento permiten conocer parte de su dieta.",
+      "behavior": "Su parentesco con los elefantes y las huellas fósiles ayudan a reconstruir una vida social en grupos. Empleaba la trompa y los colmillos para explorar, conseguir alimento y relacionarse con otros mamuts.",
+      "distribution": "Norte de Eurasia y América del Norte. Desapareció de la mayoría de las tierras continentales al terminar el Pleistoceno, pero una población aislada sobrevivió en la isla de Wrangel hasta hace unos 4.000 años.",
+      "curiosities": [
+        "Algunos cuerpos congelados conservan pelo, piel e incluso contenido digestivo, además de huesos y dientes.",
+        "Los seres humanos convivieron con los mamuts y los representaron en el arte prehistórico.",
+        "El mamut era un mamífero. Vivió muchísimo después de Triceratops: las tres especies de este tomo no compartieron una misma época."
+      ],
+      "isFictional": false
+    },
+    {
+      "id": "mamut-mamut-smilodon", "name": "Mamudon", "plateNumber": 2,
+      "scientificName": "Mammuthofelis brevicauda",
+      "imageUrl": null, "imageDescription": "Cabeza y torso de mamut sobre una grupa de Smilodon, con patas traseras felinas y cola corta.", "imageNeedsReview": false,
+      "story": "Su parte delantera abre una senda ancha en la nieve, pero detrás quedan las pisadas redondeadas de un felino. Cuando se detiene a comer, recoge las patas traseras bajo el cuerpo y mantiene los colmillos apartados de las ramas.",
+      "habitat": "Praderas frías con manchas de matorral y barrancos que resguardan del viento.",
+      "diet": "Arranca hierba seca con la trompa y recoge brotes de los arbustos. Las patas felinas le permiten afirmarse en las laderas, aunque sigue buscando alimento vegetal.",
+      "behavior": "Desciende despacio, colocando primero las patas delanteras. Al descansar enrolla la trompa junto al pecho para evitar que roce el suelo helado.",
+      "distribution": "En el mapa imaginario del tomo ocupa las laderas del Valle del Viento Bajo.",
+      "curiosities": [
+        "Las huellas delanteras y traseras son tan distintas que parecen pertenecer a dos animales que caminan juntos.",
+        "La cola corta apenas sobresale del borde de su abrigo lanudo."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-mamut-triceratops", "name": "Mamutops", "plateNumber": 3,
+      "scientificName": "Mammuthoceras caudatum",
+      "imageUrl": null, "imageDescription": "Mamut de cabeza y torso lanudos, con patas posteriores y larga cola de Triceratops.", "imageNeedsReview": false,
+      "story": "La lana termina de pronto sobre una grupa de escamas. Al cruzar un arroyo, este mamut levanta la cola y tantea el fondo con la trompa antes de confiarle todo su peso.",
+      "habitat": "Valles frescos con hierba abundante, cauces poco profundos y orillas firmes.",
+      "diet": "Come hierbas de ribera y hojas bajas. Acerca los tallos con la trompa y deja las ramas más duras, que le estorban entre los colmillos.",
+      "behavior": "Evita los pasos estrechos: necesita espacio tanto para girar los colmillos como para mover la cola. Prefiere vadear por las mismas entradas despejadas.",
+      "distribution": "Las riberas de los Tres Vados, una comarca inventada para estas láminas.",
+      "curiosities": [
+        "Si sale del agua deprisa, la cola salpica una franja mucho más ancha que sus pisadas.",
+        "El contraste entre lana y escamas permite reconocerlo incluso cuando oculta la cabeza en el matorral."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-smilodon-mamut", "name": "Mamulomut", "plateNumber": 4,
+      "scientificName": "Mammuthofelis dorsalis",
+      "imageUrl": null, "imageDescription": "Cabeza y grupa de mamut unidas por un torso de Smilodon de pelo corto.", "imageNeedsReview": false,
+      "story": "Entre dos extremos lanudos aparece un lomo de pelo corto que se arquea al andar. Suele detenerse con la cabeza a la sombra y la grupa al sol, como si todavía estuviera buscando una temperatura que le viniera bien a todo el cuerpo.",
+      "habitat": "Bosques abiertos de clima fresco, con claros soleados y suelo seco.",
+      "diet": "Busca hojas tiernas en los bordes del bosque y hierba en los claros. Su trompa dobla las ramas pequeñas hacia la boca sin necesidad de alzarse.",
+      "behavior": "Avanza a pasos cortos para acompasar el torso flexible con las patas robustas. Rodea los troncos caídos en lugar de saltarlos.",
+      "distribution": "Los claros del Bosque de la Escarcha Clara, en la geografía ficticia de Prehistoria.",
+      "curiosities": [
+        "La franja central de pelo corto se seca antes que el resto del cuerpo después de la lluvia.",
+        "Puede curvar el lomo sin que la cabeza pesada deje de balancearse lentamente."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-smilodon-smilodon", "name": "Mamulodon", "plateNumber": 5,
+      "scientificName": "Mammuthofelis silvestris",
+      "imageUrl": null, "imageDescription": "Cabeza lanuda de mamut y colmillos curvados sobre torso y grupa felinos.", "imageNeedsReview": false,
+      "story": "Se oye antes el roce de sus colmillos contra una rama que el paso de sus patas traseras. El cuerpo felino cabe entre los arbustos, pero la cabeza lo obliga a escoger corredores bastante más anchos.",
+      "habitat": "Matorrales claros y pequeños bosques separados por praderas.",
+      "diet": "Selecciona brotes y hojas con la punta de la trompa; también pasta en los claros. Su silueta de felino no cambia la forma en que mastica las plantas.",
+      "behavior": "Se agacha para alcanzar la vegetación baja y retrocede si los colmillos se enredan. Suele volver sobre sus propias huellas para salir de un paso difícil.",
+      "distribution": "El corredor imaginario de los Avellanos Torcidos.",
+      "curiosities": [
+        "A veces aparta una rama con la trompa y la sostiene mientras pasa la cabeza.",
+        "Sus patas posteriores dejan pocas señales en la hojarasca blanda."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-smilodon-triceratops", "name": "Mamulotops", "plateNumber": 6,
+      "scientificName": "Mammuthofelis longicauda",
+      "imageUrl": null, "imageDescription": "Delantera de mamut, torso de Smilodon y trasera escamosa de Triceratops.", "imageNeedsReview": false,
+      "story": "Al darse la vuelta, la trompa inicia el giro y la cola tarda un momento en seguirla. Su lomo flexible suaviza ese movimiento, pero entre árboles cercanos necesita ir corrigiendo el paso.",
+      "habitat": "Praderas templadas con árboles dispersos y cursos de agua abiertos.",
+      "diet": "Reúne manojos de hierba y brotes jugosos. En los cauces secos recoge las hojas que quedan al alcance de la trompa.",
+      "behavior": "Prueba el terreno antes de bajar por un desnivel. Mantiene la cola elevada cuando el cuerpo se inclina hacia delante para beber.",
+      "distribution": "La Llanura del Río Curvo, territorio de la cartografía imaginaria del libro.",
+      "curiosities": [
+        "Su sombra junta tres perfiles distintos: colmillos, cintura felina y cola reptiliana.",
+        "Deja un espacio libre detrás de sí antes de sacudir el agua del cuerpo."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-triceratops-mamut", "name": "Mamuceramut", "plateNumber": 7,
+      "scientificName": "Mammuthoceras intermedium",
+      "imageUrl": null, "imageDescription": "Cabeza y grupa lanudas de mamut con un torso ancho de piel escamosa.", "imageNeedsReview": false,
+      "story": "El pelaje de la cabeza y de las ancas enmarca un costado ancho y rugoso. Cuando se rasca contra una roca, primero prueba la superficie con la trompa y luego apoya el centro del cuerpo.",
+      "habitat": "Altiplanos frescos con bloques de piedra y pastos cortos.",
+      "diet": "Pasta durante buena parte del día y arranca hojas de los arbustos bajos. Los colmillos separan las ramas mientras la trompa busca las partes tiernas.",
+      "behavior": "Camina con un balanceo lento y se tumba en suelos despejados. Rodea las zonas embarradas donde el vientre quedaría demasiado cerca del agua.",
+      "distribution": "Los Pastos de Piedra Redonda, un altiplano ficticio de este bestiario.",
+      "curiosities": [
+        "La nieve se engancha en la lana, pero resbala de sus costados escamosos.",
+        "Sus lugares de descanso se reconocen por una amplia marca ovalada entre las pisadas."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-triceratops-smilodon", "name": "Mamuceradon", "plateNumber": 8,
+      "scientificName": "Mammuthoceras felipes",
+      "imageUrl": null, "imageDescription": "Cabeza de mamut, torso escamoso y grupa de Smilodon con cola corta.", "imageNeedsReview": false,
+      "story": "Sus patas traseras buscan apoyos pequeños que la parte delantera no puede aprovechar. Por eso atraviesa las pedreras despacio, adelantando la trompa para comprobar dónde termina cada roca.",
+      "habitat": "Laderas suaves con vegetación entre las piedras y refugios al pie de los cortados.",
+      "diet": "Saca hojas y brotes de las grietas con la trompa. En terreno llano completa la comida con hierbas que crecen lejos de las rocas.",
+      "behavior": "Se coloca de lado al viento para resguardar la cabeza lanuda. Evita correr cuesta abajo porque su peso se concentra en la delantera.",
+      "distribution": "Las laderas inventadas del Paso de las Cuatro Huellas.",
+      "curiosities": [
+        "En la arena, las marcas de las patas posteriores aparecen dentro del ancho recorrido de las delanteras.",
+        "La pequeña cola se mueve libremente aunque el torso apenas oscile."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "mamut-triceratops-triceratops", "name": "Mamuceratops", "plateNumber": 9,
+      "scientificName": "Mammuthoceras squamatus",
+      "imageUrl": null, "imageDescription": "Cabeza de mamut lanudo sobre torso, patas traseras y cola de Triceratops.", "imageNeedsReview": false,
+      "story": "Desde lejos parece que un animal de escamas lleva una enorme capucha de lana. Al llegar al agua hunde primero la punta de la trompa y deja los colmillos suspendidos sobre la orilla.",
+      "habitat": "Llanuras de clima fresco con riberas arboladas y amplios bancos de arena.",
+      "diet": "Come hojas de ribera y tallos blandos, que reúne con la trompa. Las hierbas de los bancos de arena le permiten alimentarse sin internarse en el bosque.",
+      "behavior": "En las horas cálidas busca sombra para la cabeza y permanece quieto junto al agua. Camina describiendo curvas amplias para no golpear los árboles con la cola.",
+      "distribution": "Las Terrazas del Agua Parda, un paisaje imaginario de Prehistoria.",
+      "curiosities": [
+        "Cuando se moja la cabeza, los mechones gotean sobre un cuello de escamas.",
+        "Su cola puede quedar fuera de la sombra mientras el resto del cuerpo ya descansa bajo los árboles."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-mamut-mamut", "name": "Smimumut", "plateNumber": 10,
+      "scientificName": "Smilomammuthus hibernus",
+      "imageUrl": null, "imageDescription": "Cabeza y delantera de Smilodon con torso y grupa de mamut lanudo.", "imageNeedsReview": false,
+      "story": "Dos sables asoman por delante de un cuerpo cubierto de lana. Su tamaño le impide desaparecer entre la hierba, así que espera junto a los pasos que las manadas usan para bajar al agua.",
+      "habitat": "Estepas frías con barrancos y grupos de rocas que sirven de escondite.",
+      "diet": "Caza ciervos y crías de grandes animales que se apartan de la manada. Se alimenta de carne y aprovecha también los restos de presas abandonadas junto a los cauces.",
+      "behavior": "Se acerca poco a poco hasta un punto de espera y reserva el esfuerzo para una acometida corta. Si la presa gana distancia, interrumpe la persecución.",
+      "distribution": "Las Gargantas del Cuerno Blanco, una región imaginada para esta criatura.",
+      "curiosities": [
+        "Su abrigo oculta casi toda la silueta del lomo cuando se tumba detrás de una roca.",
+        "Las patas traseras dejan huellas anchas incluso cuando intenta avanzar sin ruido."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-mamut-smilodon", "name": "Smimudon", "plateNumber": 11,
+      "scientificName": "Smilomammuthus laniger",
+      "imageUrl": null, "imageDescription": "Cabeza y grupa de Smilodon unidas por un torso de lana espesa.", "imageNeedsReview": false,
+      "story": "La lana forma un ancho cinturón entre la cabeza de sables y las ancas felinas. Se agacha antes de cruzar un claro, aunque su torso voluminoso siga sobresaliendo entre los tallos.",
+      "habitat": "Bosques frescos con claros de hierba alta y pequeñas vaguadas.",
+      "diet": "Acecha ciervos y otros animales que pastan en los claros. Las patas felinas le ayudan a acercarse; después come la carne de sus presas en un rincón apartado.",
+      "behavior": "Aprovecha los cambios de luz para pasar de una sombra a otra. Descansa sobre tierra seca, donde la lana no se empapa.",
+      "distribution": "El Bosque de las Sombras Anchas, dibujado en el mapa ficticio del tomo.",
+      "curiosities": [
+        "Las semillas de la hierba quedan prendidas en la franja lanuda después de cada espera.",
+        "La cola corta se ve mejor desde atrás que de perfil, escondida tras el volumen del torso."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-mamut-triceratops", "name": "Smimutops", "plateNumber": 12,
+      "scientificName": "Smilomammuthus caudatus",
+      "imageUrl": null, "imageDescription": "Cabeza de Smilodon, torso lanudo de mamut y grupa con cola de Triceratops.", "imageNeedsReview": false,
+      "story": "Se oculta detrás de las lomas, pero la cola puede delatarlo si no la recoge hacia un lado. Antes de avanzar mira el terreno y cambia de posición hasta que todo su cuerpo queda fuera de la vista.",
+      "habitat": "Llanuras frescas onduladas, con arbustos dispersos y pequeñas depresiones.",
+      "diet": "Caza animales de las praderas a corta distancia y consume su carne. Suele buscar presas medianas, más fáciles de sujetar que los grandes miembros de una manada.",
+      "behavior": "Mantiene la cola separada de las ramas secas durante la espera. Tras comer se aleja del paso principal y descansa protegido por una elevación.",
+      "distribution": "Las Lomas del Rastro Largo, un territorio inventado en estas páginas.",
+      "curiosities": [
+        "Cuando gira la cabeza hacia un sonido, el extremo de la cola puede tardar en acomodarse al nuevo rumbo.",
+        "La lana reúne polvo de la loma mientras las escamas de la grupa quedan más limpias."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-smilodon-mamut", "name": "Smilomut", "plateNumber": 13,
+      "scientificName": "Smilomammuthus gravipes",
+      "imageUrl": null, "imageDescription": "Cabeza y torso de Smilodon con una grupa lanuda y patas traseras de mamut.", "imageNeedsReview": false,
+      "story": "Por delante se agacha como un felino; por detrás, dos patas robustas sostienen una grupa de lana. Elige lugares donde pueda esperar sin tener que cambiar de dirección de repente.",
+      "habitat": "Bordes de bosque con senderos de suelo firme y pasos entre rocas.",
+      "diet": "Captura ciervos y otras presas que pasan cerca de su escondite. Come carne, pero no insiste en perseguir animales que escapan hacia terrenos difíciles.",
+      "behavior": "Se apoya con firmeza en la trasera antes de lanzarse hacia delante. Evita los saltos largos y las curvas cerradas.",
+      "distribution": "Los Pasos del Robledal Gris, en la geografía imaginaria de este bestiario.",
+      "curiosities": [
+        "Una pista de huellas felinas termina acompañada de dos impresiones mucho más anchas.",
+        "Cuando se sienta, la lana de las ancas forma un borde redondeado alrededor del cuerpo."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-smilodon-smilodon", "name": "Smilodon", "plateNumber": 14,
+      "scientificName": "Smilodon fatalis",
+      "imageUrl": null, "imageDescription": "Reconstrucción de Smilodon fatalis, un felino robusto con grandes caninos superiores y cola corta.", "imageNeedsReview": false,
+      "story": "Smilodon fue un felino del Pleistoceno, no un tigre de grandes dientes. Sus largos caninos superiores y las patas delanteras robustas lo distinguen de los grandes gatos actuales. Los fósiles permiten estudiar su anatomía con detalle, pero no conservan una respuesta definitiva a todas las preguntas sobre su manera de cazar o su vida social.",
+      "habitat": "Ambientes americanos con vegetación que ofrecía cobertura, incluidos bosques abiertos y mosaicos de arbolado y pradera.",
+      "diet": "Se alimentaba de carne de grandes mamíferos. Su anatomía sugiere que sujetaba las presas con las patas delanteras antes de usar los caninos; la forma exacta de hacerlo sigue siendo objeto de estudio.",
+      "behavior": "Su cuerpo robusto encaja mejor con ataques a corta distancia que con largas persecuciones. Se ha propuesto que viviera en grupos, pero esa interpretación de los fósiles continúa en debate.",
+      "distribution": "Smilodon fatalis vivió en América del Norte, América Central y parte occidental de América del Sur durante el Pleistoceno. Los yacimientos de Rancho La Brea, en California, conservan una colección especialmente abundante.",
+      "curiosities": [
+        "Smilodon pertenece a una rama extinta de los félidos; llamarlo tigre de dientes de sable no lo convierte en pariente directo del tigre.",
+        "Sus caninos alargados no eran herramientas para triturar huesos: la manera de emplearlos dependía de controlar la presa.",
+        "El género incluye distintas especies. Esta lámina representa a Smilodon fatalis, no al mayor Smilodon populator."
+      ],
+      "isFictional": false
+    },
+    {
+      "id": "smilodon-smilodon-triceratops", "name": "Smilotops", "plateNumber": 15,
+      "scientificName": "Smiloceratops longicauda",
+      "imageUrl": null, "imageDescription": "Delantera y torso de Smilodon con patas posteriores escamosas y cola de Triceratops.", "imageNeedsReview": false,
+      "story": "La cabeza y el lomo desaparecen fácilmente entre la maleza; la cola necesita un hueco mucho mayor. Antes de echarse a esperar, despeja con el cuerpo las ramas que podrían crujir a su espalda.",
+      "habitat": "Bosques abiertos con claros largos, orillas arenosas y poca maleza a ras del suelo.",
+      "diet": "Acecha ciervos y animales de las riberas para comer su carne. Se aproxima desde el borde del bosque y ataca cuando la presa entra en un claro cercano.",
+      "behavior": "Gira todo el cuerpo al cambiar de dirección, en lugar de doblarse bruscamente. Si una presa se interna entre troncos muy juntos, la deja marchar.",
+      "distribution": "Las orillas de la Laguna del Tronco Caído, un enclave ficticio del libro.",
+      "curiosities": [
+        "En suelo blando, sus garras delanteras y los dedos de la trasera producen rastros de formas diferentes.",
+        "El último tramo del cuerpo permanece al descubierto un momento después de que la cabeza entre en la sombra."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-triceratops-mamut", "name": "Smiceramut", "plateNumber": 16,
+      "scientificName": "Smiloceratops lanicauda",
+      "imageUrl": null, "imageDescription": "Cabeza de Smilodon, torso escamoso de Triceratops y grupa lanuda de mamut.", "imageNeedsReview": false,
+      "story": "Su cabeza sigue atentamente cada movimiento, aunque el cuerpo tarde en responder. Se instala cerca de pasos angostos y espera a que el alimento llegue a una distancia que sus patas puedan cubrir.",
+      "habitat": "Valles frescos con gargantas, grandes piedras y caminos naturales hacia el agua.",
+      "diet": "Caza presas que cruzan los pasos del valle y aprovecha carne de animales muertos. Las escamas y la lana no sustituyen los dientes preparados para cortar alimento animal.",
+      "behavior": "Busca un apoyo ancho para las patas posteriores antes de abalanzarse. Las persecuciones largas le resultan menos útiles que una buena posición de espera.",
+      "distribution": "El Desfiladero de las Pisadas Hondas, escenario imaginario de esta mezcla.",
+      "curiosities": [
+        "El borde de lana de la grupa recoge pequeñas piedras cuando se tumba en una pendiente.",
+        "Sus costados rugosos rozan los salientes que la cabeza felina habría esquivado sin dificultad."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-triceratops-smilodon", "name": "Smiceradon", "plateNumber": 17,
+      "scientificName": "Smiloceratops squamifer",
+      "imageUrl": null, "imageDescription": "Cabeza y grupa de Smilodon alrededor de un torso ancho y escamoso.", "imageNeedsReview": false,
+      "story": "Parece estrecho cuando mira de frente, hasta que deja ver sus costados voluminosos. Se arrima a los troncos gruesos y espera a que el movimiento de las hojas disimule el suyo.",
+      "habitat": "Bosques de suelo seco con troncos anchos y claros de vegetación baja.",
+      "diet": "Caza ciervos y otros mamíferos que entran a pastar entre los árboles. Come carne de sus capturas y vuelve a los restos mientras quedan partes aprovechables.",
+      "behavior": "Las patas felinas lo acercan en silencio, pero el torso ancho limita los pasos por la maleza. Escoge escondites con salida despejada.",
+      "distribution": "El Bosque de los Troncos Gemelos, una localización de la cartografía ficticia.",
+      "curiosities": [
+        "El polvo dibuja marcas claras entre las escamas de sus costados.",
+        "La punta de la cola se mueve por detrás de un cuerpo bastante más ancho que sus ancas."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "smilodon-triceratops-triceratops", "name": "Smiceratops", "plateNumber": 18,
+      "scientificName": "Smiloceratops robustus",
+      "imageUrl": null, "imageDescription": "Cabeza y delantera de Smilodon con torso, grupa y cola de Triceratops.", "imageNeedsReview": false,
+      "story": "El cuerpo reptiliano avanza con firmeza mientras la cabeza de sables explora los olores del suelo. No necesita perseguir todo lo que encuentra: conoce los puntos donde se detienen los animales para beber.",
+      "habitat": "Llanuras templadas con charcas estacionales y orillas despejadas.",
+      "diet": "Se alimenta de carne y busca presas cerca de los abrevaderos. También aprovecha carroña; su volumen le permite ocupar un lugar junto a los restos sin correr grandes distancias.",
+      "behavior": "Se acerca al agua con movimientos lentos y espera fuera del paso de la manada. Mantiene la cola elevada al caminar entre los cuerpos de los árboles caídos.",
+      "distribution": "Los Abrevaderos del Barro Rojo, una llanura imaginaria de Prehistoria.",
+      "curiosities": [
+        "Al levantar la cabeza, los sables quedan por encima de un pecho que continúa cubierto de pelo.",
+        "El giro de su cola aparta la hierba mucho después de que las patas delanteras hayan pasado."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-mamut-mamut", "name": "Trimumut", "plateNumber": 19,
+      "scientificName": "Triceromammuthus lanatus",
+      "imageUrl": null, "imageDescription": "Cabeza de Triceratops con tres cuernos y gola, seguida de torso y grupa de mamut lanudo.", "imageNeedsReview": false,
+      "story": "La gola se recorta por delante de un cuerpo de lana que parece todavía más ancho. Cuando baja el pico hacia el suelo, aparta la nieve suelta con pequeños movimientos de la cabeza.",
+      "habitat": "Praderas frescas de vegetación baja, con matorrales que quedan al descubierto entre las nevadas.",
+      "diet": "Corta hierbas, hojas y brotes con el pico. Busca los parches de vegetación expuesta y mastica antes de avanzar hacia el siguiente.",
+      "behavior": "Camina despacio entre los arbustos para no enganchar los cuernos. Descansa de lado en terreno seco y resguarda la cabeza del viento más fuerte.",
+      "distribution": "La Pradera de las Golas Blancas, un paisaje inventado para esta lámina.",
+      "curiosities": [
+        "Los mechones del torso forman un borde blando inmediatamente detrás de la gola.",
+        "La nieve puede quedarse sobre el lomo incluso después de que la cabeza se haya secado."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-mamut-smilodon", "name": "Trimudon", "plateNumber": 20,
+      "scientificName": "Triceromammuthus felipes",
+      "imageUrl": null, "imageDescription": "Cabeza de Triceratops, torso lanudo y grupa de Smilodon de cola corta.", "imageNeedsReview": false,
+      "story": "La cabeza escoge un camino amplio mientras las patas posteriores se acomodan a los huecos del suelo. Si se detiene en una pendiente, gira primero la grupa y luego hace sitio para los cuernos.",
+      "habitat": "Laderas frescas con terrazas de hierba y grupos dispersos de arbustos.",
+      "diet": "Recorta hojas y tallos bajos con el pico. Las patas traseras lo afirman junto a los matorrales mientras alcanza los brotes del borde.",
+      "behavior": "Evita las bajadas rápidas y se coloca atravesado en la pendiente para descansar. La cola corta queda recogida junto al pelaje de las ancas.",
+      "distribution": "Las Terrazas del Helecho Pálido, una comarca imaginaria del tomo.",
+      "curiosities": [
+        "Una mirada desde atrás no deja adivinar la gran gola que lleva delante.",
+        "La lana guarda algunas de las hojas que caen sobre el cuerpo mientras ramonea."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-mamut-triceratops", "name": "Trimutops", "plateNumber": 21,
+      "scientificName": "Triceromammuthus dorsalis",
+      "imageUrl": null, "imageDescription": "Cabeza y trasera de Triceratops con una franja central de lana espesa.", "imageNeedsReview": false,
+      "story": "Parece llevar una manta entre la gola y la base de la cola. Al salir de la lluvia, se coloca donde corre el aire y sacude el torso, mientras el agua todavía gotea de los cuernos.",
+      "habitat": "Valles frescos y húmedos con vegetación baja y espacios abiertos para secarse.",
+      "diet": "Muerde brotes, hojas y tallos al alcance del pico. Se mueve entre varios parches de vegetación en vez de arrancar una sola planta hasta la raíz.",
+      "behavior": "Cruza los arroyos por las zonas poco profundas para mantener la lana fuera del agua. Busca suelo seco cuando va a tumbarse.",
+      "distribution": "El Valle de la Lluvia Fina, un lugar de la geografía ficticia de Prehistoria.",
+      "curiosities": [
+        "Su torso conserva gotas que ya han resbalado de las escamas de la grupa.",
+        "La cola abre un surco entre las hierbas altas sin arrastrarse por el suelo."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-smilodon-mamut", "name": "Trilomut", "plateNumber": 22,
+      "scientificName": "Tricerofelis gravipes",
+      "imageUrl": null, "imageDescription": "Cabeza de Triceratops, torso felino y grupa lanuda de mamut.", "imageNeedsReview": false,
+      "story": "El centro del cuerpo se curva al paso de unas ancas mucho más pesadas. Para alcanzar las hojas bajas, flexiona la delantera sin despegar del suelo las amplias patas de atrás.",
+      "habitat": "Claros frescos con hierba corta, suelo firme y bordes de bosque poco densos.",
+      "diet": "Come hojas de arbustos y hierbas tiernas. El pico corta las puntas mientras las patas posteriores sostienen el cuerpo sin necesidad de moverse.",
+      "behavior": "Cambia de postura poco a poco cuando se levanta. Prefiere rodear los obstáculos y mantener la cabeza orientada hacia el espacio libre.",
+      "distribution": "Los Claros del Coloso Dormido, una región imaginada en el libro.",
+      "curiosities": [
+        "El pelo corto del torso hace que las ancas lanudas parezcan aún más grandes.",
+        "Su rastro conserva pisadas posteriores profundas incluso en los tramos donde apenas frenó."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-smilodon-smilodon", "name": "Trilodon", "plateNumber": 23,
+      "scientificName": "Tricerofelis silvestris",
+      "imageUrl": null, "imageDescription": "Cabeza y delantera de Triceratops sobre torso y grupa de Smilodon.", "imageNeedsReview": false,
+      "story": "Tiene cuerpo para deslizarse entre los arbustos y cabeza para quedarse atascado en ellos. Aprende pronto a probar cada paso con la gola de lado antes de dejar que lo siga el resto.",
+      "habitat": "Bosques abiertos con sendas anchas y vegetación tierna en sus márgenes.",
+      "diet": "Corta hojas y brotes con el pico, aunque las patas felinas le den aspecto de cazador. Pasta en los claros cuando las ramas del bosque están fuera de su alcance.",
+      "behavior": "Da pasos cortos alrededor de las raíces y se agacha para descansar. Al oír un ruido, gira la cabeza antes de mover el cuerpo.",
+      "distribution": "Las Sendas de la Gola Estrecha, un rincón ficticio del bestiario.",
+      "curiosities": [
+        "La cabeza deja un hueco en el follaje mucho más ancho que el que necesita la cintura.",
+        "La cola corta desaparece por completo cuando se sienta de espaldas entre las hierbas."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-smilodon-triceratops", "name": "Trilotops", "plateNumber": 24,
+      "scientificName": "Tricerofelis flexilis",
+      "imageUrl": null, "imageDescription": "Cabeza y grupa escamosas de Triceratops enlazadas por un torso de Smilodon.", "imageNeedsReview": false,
+      "story": "Entre la gola y la cola aparece una cintura de pelo corto. Al caminar alrededor de una charca, dobla el torso sin dejar de apoyar con firmeza las patas de los extremos.",
+      "habitat": "Riberas templadas con vegetación baja y espacio para moverse entre las charcas.",
+      "diet": "Busca hojas nuevas y tallos blandos junto al agua. El pico recorta la vegetación de la orilla mientras la cola queda fuera del cauce.",
+      "behavior": "Se inclina con cuidado para beber y vuelve a enderezarse antes de dar otro paso. Evita las orillas socavadas que no soportan la cabeza pesada.",
+      "distribution": "Las Charcas del Meandro Verde, parte del mapa imaginario del tomo.",
+      "curiosities": [
+        "El centro del lomo se mueve más que la base de la cola al cambiar de dirección.",
+        "La franja de pelo corto conserva el barro de las salpicaduras de un modo distinto a las escamas."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-triceratops-mamut", "name": "Triceramut", "plateNumber": 25,
+      "scientificName": "Triceromammuthus posterior",
+      "imageUrl": null, "imageDescription": "Cabeza y torso de Triceratops con grupa de mamut, lana larga y patas posteriores robustas.", "imageNeedsReview": false,
+      "story": "Desde el frente parece un Triceratops corriente, hasta que da media vuelta y deja ver las ancas cubiertas de lana. Al pasar junto al matorral, los mechones se llevan hojas que la cabeza ya había apartado.",
+      "habitat": "Llanuras frescas con pastos bajos, matorrales dispersos y suelos compactos.",
+      "diet": "Se alimenta de hojas y brotes que corta con el pico. Recorre los bordes del matorral, donde puede alcanzar las puntas sin hundir todo el cuerpo entre las ramas.",
+      "behavior": "Se detiene sobre terreno nivelado para descansar las patas traseras. Sacude las ancas después de pasar por una zona de plantas espinosas.",
+      "distribution": "Los Llanos del Cardo Gris, una comarca creada para estas criaturas.",
+      "curiosities": [
+        "Las semillas prendidas en la lana pueden caer bastante lejos del arbusto que las produjo.",
+        "En un suelo húmedo, sus patas posteriores imprimen marcas más redondeadas que las delanteras."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-triceratops-smilodon", "name": "Triceradon", "plateNumber": 26,
+      "scientificName": "Tricerofelis brevicauda",
+      "imageUrl": null, "imageDescription": "Cabeza y torso de Triceratops con grupa felina y cola corta de Smilodon.", "imageNeedsReview": false,
+      "story": "Después de una cabeza enorme y unos costados anchos, el cuerpo termina de forma inesperadamente compacta. Se apoya con cuidado en las patas traseras cuando levanta el pico para alcanzar una rama.",
+      "habitat": "Bosques ralos de suelo seco con matorrales bajos y amplios claros.",
+      "diet": "Come brotes y hojas bajas, cortándolos con el borde del pico. Sus patas felinas encuentran apoyos entre las raíces mientras mastica.",
+      "behavior": "Necesita poco espacio detrás del cuerpo, pero mucho por delante para girar los cuernos. Cambia de dirección con pequeños pasos de las patas posteriores.",
+      "distribution": "El Bosque de las Raíces Blancas, un enclave imaginario de Prehistoria.",
+      "curiosities": [
+        "La ausencia de una cola larga permite que otra criatura pase cerca de sus ancas sin tener que esquivarla.",
+        "Las patas traseras se recolocan varias veces mientras la cabeza sigue frente al mismo arbusto."
+      ],
+      "isFictional": true
+    },
+    {
+      "id": "triceratops-triceratops-triceratops", "name": "Triceratops", "plateNumber": 27,
+      "scientificName": "Triceratops horridus",
+      "imageUrl": null, "imageDescription": "Reconstrucción de Triceratops con dos cuernos sobre los ojos, un cuerno nasal, pico y una amplia gola ósea.", "imageNeedsReview": false,
+      "story": "Triceratops caminaba sobre cuatro patas y llevaba uno de los cráneos más llamativos de los dinosaurios. Dos cuernos largos sobresalían sobre los ojos y otro, más corto, nacía sobre la nariz. Detrás se extendía la gola ósea. Vivió al final del Cretácico, millones de años antes de los mamuts y de Smilodon.",
+      "habitat": "Llanuras del oeste de América del Norte con ríos y vegetación abundante durante el Cretácico tardío.",
+      "diet": "Cortaba hojas y otras partes de las plantas con un pico duro. Las hileras de dientes del fondo de la boca procesaban la vegetación; probablemente recogía buena parte del alimento a poca altura.",
+      "behavior": "Los cuernos pudieron servir para defenderse y para enfrentamientos entre individuos. La gola también pudo intervenir en la exhibición o el reconocimiento. No está demostrado que viviera habitualmente en grandes manadas.",
+      "distribution": "Oeste de América del Norte, hace aproximadamente entre 68 y 66 millones de años. Esta lámina representa a Triceratops horridus, una de las especies reconocidas del género.",
+      "curiosities": [
+        "Su nombre alude a los tres cuernos de la cara.",
+        "Las impresiones de piel muestran escamas; la gola era hueso, no una melena ni una oreja extendida.",
+        "Se parece superficialmente a un rinoceronte, pero pertenecen a grupos muy distintos: Triceratops era un dinosaurio y el rinoceronte es un mamífero."
+      ],
+      "isFictional": false
+    }
+  ]
+}
